@@ -3,11 +3,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 350px;
-    background-size: 100vw;
-    background-image: url('../assets/img/header-img.jpg');
-    background-repeat: no-repeat;
-
+    height: 250px;
+    background-color: rgb(17, 17, 17);
+    /*background-size: 100vw;
+   background-image: url('../assets/img/header-img.jpg');
+    background-repeat: no-repeat;*/
 }
 
 .header-data-cont {
@@ -22,8 +22,6 @@
     color: rgb(10, 10, 10);
     font-size: 60px;
     text-shadow: -1px -1px 1px rgb(251, 251, 251), 1px 1px 1px rgb(251, 251, 251);
-    background-color: rgba(0, 0, 0, 0.4);
-    border-radius: 5px;
 }
 
 .header .front-end {
