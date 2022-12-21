@@ -7,6 +7,7 @@ export function NavBar() {
         <nav className='nav-bar'>
             <BtnNav txt='Sobre Mí' />
             <BtnNav txt='Conocimientos' />
+            <BtnNav txt='Proyectos' />
             <BtnNav txt='Contacto' />
         </nav>
     )
