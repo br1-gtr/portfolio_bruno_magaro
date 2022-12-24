@@ -1,21 +1,19 @@
 @import './colors.css';
 
 .card {
-
+    width: 65vw;
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 50px;
     border-radius: 5px;
-}
-
-.card__title {
-    text-align: left;
+    margin-top: 40px;
 }
 
 .card__data {
     display: flex;
     justify-content: stretch;
     align-items: flex-start;
+    color: rgb(219, 219, 219);
 }
 
 .card__img {
@@ -27,6 +25,10 @@
 .card__description {
     font-size: 20px;
     padding: 20px;
+}
+
+.card__description--icon {
+    margin-right: 8px;
 }
 
 .card__description ul {
@@ -44,24 +46,54 @@
     padding: 5px 10px;
 }
 
+.card__description ul:last-child {
+    cursor: pointer;
+}
+
 .btn-list {
     border-radius: 25px;
     display: flex;
-    padding: 3px 5px;
+    padding: 4px 6px;
     transition: 0.2s;
     text-decoration: none;
-}
-
-.card__description ul :last-child {
-    cursor: pointer;
+    margin-left: 5px;
+    border: 1px solid var(--black-bg);
+    color: rgb(219, 219, 219);
 }
 
 .card__description ul :last-child:hover .btn-list {
     background-color: var(--black-bg);
     color: white;
+    border: 1px solid var(--yellow-hover);
 }
 
 .icon-spotify {
-    color: green;
-    margin-left: 5px;
+    color: green !important;
+    margin-left: 8px;
 }
+
+/*MediaQuerys
+
+@media screen and (max-width: 1550px) {
+    .card {
+        width: 85vw;
+    }
+
+}
+
+@media screen and (max-width: 1150px) {
+    .card {
+        width: 98vw;
+    }
+
+    .card__img {
+        height: 260px;
+        width: 260px;
+        border-radius: 50%;
+    }
+
+    .card__description {
+        font-size: 18px;
+        padding: 18px;
+    }
+}*/

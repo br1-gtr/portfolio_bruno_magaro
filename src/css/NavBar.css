@@ -1,8 +1,22 @@
+@import './colors.css';
+
 .nav-bar {
     position: relative;
     height: 20px;
-    width: 100vw;
+    width: 90vw;
+    margin: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    z-index: 1;
+}
+
+.nav-bar::after {
+    content: "";
+    background-color: var(--pink-main);
+    height: 6px;
+    width: 70vw;
+    position: absolute;
+    top: -1px;
+    z-index: -1;
 }

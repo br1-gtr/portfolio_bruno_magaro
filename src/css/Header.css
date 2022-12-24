@@ -5,9 +5,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 250px;
-    background-color: var(--black-bg);
-    border-bottom: 3px solid var(--pink-main);
+    height: 450px;
+    /*background-color: var(--black-bg);*/
+    background-image: url(../assets/img/header-img.jpg);
+    background-size: cover;
+    background-position: center;
+    /*border-bottom: 3px solid var(--pink-main);*/
 }
 
 .header-data-cont {
