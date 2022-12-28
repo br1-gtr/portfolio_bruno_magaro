@@ -16,18 +16,22 @@
     width: 500px;
     /*Width SLIDER*/
     background-color: white;
-    overflow-x: scroll;
+    overflow-x: hidden;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     border-radius: 5px;
-
 }
 
-.slider img {
+.slider__img {
     width: 80px;
     height: 80px;
     padding: 5px;
     margin-right: 10px;
+    transition: 0.2s;
+}
+
+.slider__img:hover {
+    scale: 1.2;
 }

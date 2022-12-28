@@ -34,7 +34,7 @@ export function Slider() {
 
             sliderRef.current.scrollLeft = scrollX; //Modfica scroll
             setScrollX(scrollX + direction) //Asigna nuevo valor de scroll
-            console.log(direction);
+            //console.log(direction);
         }, 11)
     }, [scrollX])
 
