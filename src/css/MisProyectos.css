@@ -1,0 +1,39 @@
+@import './colors.css';
+
+.proy-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px 15px;
+    /*grid-auto-flow: row;
+    grid-template-areas:
+        ". . . ."
+        ". . . ."
+        ". . . .";*/
+}
+
+.proy-card {
+    background-color: var(--black-bg);
+    width: 260px;
+    height: auto;
+    /*border: 1px solid rgb(79, 79, 79);*/
+    border-radius: 10px;
+}
+
+.proy-card img {
+    width: 100%;
+    border-radius: 10px 10px 0% 50%;
+}
+
+.proy-card__info {
+    padding: 0 10px 10px 10px;
+}
+
+.proy-card__info--nombre {
+    color: var(--yellow-hover);
+}
+
+.proy-card__info p {
+    color: white;
+    font-size: 11px;
+}

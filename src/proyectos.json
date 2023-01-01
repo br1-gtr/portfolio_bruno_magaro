@@ -1,0 +1,32 @@
+[
+    {
+        "nombre": "Portfolio",
+        "descripcion": "Este proyecto es mi sitio personalizado, donde se encuentra informacion sobre mi, mis conocimientos y experiencia, y el enlace a algunos de mis proyectos.",
+        "img": "https://img.freepik.com/foto-gratis/encendido-computadora-portatil-gris_400718-47.jpg?w=740&t=st=1672610633~exp=1672611233~hmac=9ee9779c02b8c50e69ffd57d4ad280e64247c67137e1706b04f15e30e2dfb2df"
+    },
+    {
+        "nombre": "Tateti",
+        "descripcion": " TATETIIIII abueeeela lalala la la",
+        "img": "https://img.freepik.com/foto-gratis/encendido-computadora-portatil-gris_400718-47.jpg?w=740&t=st=1672610633~exp=1672611233~hmac=9ee9779c02b8c50e69ffd57d4ad280e64247c67137e1706b04f15e30e2dfb2df"
+    },
+    {
+        "nombre": "Pokedex",
+        "descripcion": " Pkedex abueeeela lalala la la",
+        "img": "https://img.freepik.com/foto-gratis/encendido-computadora-portatil-gris_400718-47.jpg?w=740&t=st=1672610633~exp=1672611233~hmac=9ee9779c02b8c50e69ffd57d4ad280e64247c67137e1706b04f15e30e2dfb2df"
+    },
+    {
+        "nombre": "Memorama (PokeApi)",
+        "descripcion": " abueeeela lalala la la",
+        "img": "https://img.freepik.com/foto-gratis/encendido-computadora-portatil-gris_400718-47.jpg?w=740&t=st=1672610633~exp=1672611233~hmac=9ee9779c02b8c50e69ffd57d4ad280e64247c67137e1706b04f15e30e2dfb2df"
+    },
+    {
+        "nombre": "Clima App",
+        "descripcion": " abueeeela lalala la la",
+        "img": "https://img.freepik.com/foto-gratis/encendido-computadora-portatil-gris_400718-47.jpg?w=740&t=st=1672610633~exp=1672611233~hmac=9ee9779c02b8c50e69ffd57d4ad280e64247c67137e1706b04f15e30e2dfb2df"
+    },
+    {
+        "nombre": "Pomodoro App",
+        "descripcion": " abueeeela lalala la la",
+        "img": "https://img.freepik.com/foto-gratis/encendido-computadora-portatil-gris_400718-47.jpg?w=740&t=st=1672610633~exp=1672611233~hmac=9ee9779c02b8c50e69ffd57d4ad280e64247c67137e1706b04f15e30e2dfb2df"
+    }
+]
