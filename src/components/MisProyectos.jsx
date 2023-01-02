@@ -20,10 +20,13 @@ export function MisProyectos() {
                                     <h2 className='proy-card__info--nombre'>{proy.nombre}</h2>
                                     <p>Descripcion: {proy.descripcion}</p>
                                 </div>
-                                <div>
-                                    <button>Ir al sitio <AiFillGithub /></button>
-                                </div>
 
+                                <div className='proy-card__btn'>
+                                    <button>
+                                        <p>Ir al sitio</p>
+                                        <AiFillGithub size={"26px"} />
+                                    </button>
+                                </div>
                             </div>
                         )
                     })
