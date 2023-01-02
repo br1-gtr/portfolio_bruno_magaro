@@ -2,31 +2,79 @@
     {
         "nombre": "Portfolio",
         "descripcion": "Este proyecto es mi sitio personalizado, donde se encuentra informacion sobre mi, mis conocimientos y experiencia, y el enlace a algunos de mis proyectos.",
-        "img": "https://img.freepik.com/foto-gratis/encendido-computadora-portatil-gris_400718-47.jpg?w=740&t=st=1672610633~exp=1672611233~hmac=9ee9779c02b8c50e69ffd57d4ad280e64247c67137e1706b04f15e30e2dfb2df"
+        "img": "https://img.freepik.com/foto-gratis/encendido-computadora-portatil-gris_400718-47.jpg?w=740&t=st=1672610633~exp=1672611233~hmac=9ee9779c02b8c50e69ffd57d4ad280e64247c67137e1706b04f15e30e2dfb2df",
+        "tecnologias": {
+            "html": true,
+            "css": true,
+            "js": true,
+            "react": true,
+            "bootstrap": false,
+            "sass": false
+        }
     },
     {
         "nombre": "Tateti",
         "descripcion": "Mi primer 'Juego' desarrollado en puro HTML, CSS, y JavaScript. Una version minimalista del clasico TaTeTi.",
-        "img": "https://img.freepik.com/foto-gratis/encendido-computadora-portatil-gris_400718-47.jpg?w=740&t=st=1672610633~exp=1672611233~hmac=9ee9779c02b8c50e69ffd57d4ad280e64247c67137e1706b04f15e30e2dfb2df"
+        "img": "https://img.freepik.com/foto-gratis/encendido-computadora-portatil-gris_400718-47.jpg?w=740&t=st=1672610633~exp=1672611233~hmac=9ee9779c02b8c50e69ffd57d4ad280e64247c67137e1706b04f15e30e2dfb2df",
+        "tecnologias": {
+            "html": true,
+            "css": true,
+            "js": true,
+            "react": false,
+            "bootstrap": false,
+            "sass": false
+        }
     },
     {
         "nombre": "Pokedex",
         "descripcion": "Un buscador de pokemones(los clasicos 150) con distintos filtros de busqueda.",
-        "img": "https://img.freepik.com/foto-gratis/encendido-computadora-portatil-gris_400718-47.jpg?w=740&t=st=1672610633~exp=1672611233~hmac=9ee9779c02b8c50e69ffd57d4ad280e64247c67137e1706b04f15e30e2dfb2df"
+        "img": "https://img.freepik.com/foto-gratis/encendido-computadora-portatil-gris_400718-47.jpg?w=740&t=st=1672610633~exp=1672611233~hmac=9ee9779c02b8c50e69ffd57d4ad280e64247c67137e1706b04f15e30e2dfb2df",
+        "tecnologias": {
+            "html": true,
+            "css": true,
+            "js": true,
+            "react": false,
+            "bootstrap": false,
+            "sass": true
+        }
     },
     {
-        "nombre": "Memorama (PokeApi)",
+        "nombre": "Memorama",
         "descripcion": "Utilizando la Poke-Api, este mini-juego se conecta y genera partidas con pokemones al azar entre los primeros 150.",
-        "img": "https://img.freepik.com/foto-gratis/encendido-computadora-portatil-gris_400718-47.jpg?w=740&t=st=1672610633~exp=1672611233~hmac=9ee9779c02b8c50e69ffd57d4ad280e64247c67137e1706b04f15e30e2dfb2df"
+        "img": "https://img.freepik.com/foto-gratis/encendido-computadora-portatil-gris_400718-47.jpg?w=740&t=st=1672610633~exp=1672611233~hmac=9ee9779c02b8c50e69ffd57d4ad280e64247c67137e1706b04f15e30e2dfb2df",
+        "tecnologias": {
+            "html": true,
+            "css": true,
+            "js": true,
+            "react": false,
+            "bootstrap": true,
+            "sass": true
+        }
     },
     {
         "nombre": "Clima App",
         "descripcion": "Esta App detecta la ubicacion  del usuario, y luego mediante una API con data de climatologia, muestra un detalle del clima onlne y de las horas siguientes.",
-        "img": "https://img.freepik.com/foto-gratis/encendido-computadora-portatil-gris_400718-47.jpg?w=740&t=st=1672610633~exp=1672611233~hmac=9ee9779c02b8c50e69ffd57d4ad280e64247c67137e1706b04f15e30e2dfb2df"
+        "img": "https://img.freepik.com/foto-gratis/encendido-computadora-portatil-gris_400718-47.jpg?w=740&t=st=1672610633~exp=1672611233~hmac=9ee9779c02b8c50e69ffd57d4ad280e64247c67137e1706b04f15e30e2dfb2df",
+        "tecnologias": {
+            "html": true,
+            "css": true,
+            "js": true,
+            "react": true,
+            "bootstrap": false,
+            "sass": true
+        }
     },
     {
         "nombre": "Pomodoro App",
         "descripcion": "El clasico metodo pomodoro para desarrollar diferentes tareas. Con un stylado minimalista programado en Vanilla Javascript.",
-        "img": "https://img.freepik.com/foto-gratis/encendido-computadora-portatil-gris_400718-47.jpg?w=740&t=st=1672610633~exp=1672611233~hmac=9ee9779c02b8c50e69ffd57d4ad280e64247c67137e1706b04f15e30e2dfb2df"
+        "img": "https://img.freepik.com/foto-gratis/encendido-computadora-portatil-gris_400718-47.jpg?w=740&t=st=1672610633~exp=1672611233~hmac=9ee9779c02b8c50e69ffd57d4ad280e64247c67137e1706b04f15e30e2dfb2df",
+        "tecnologias": {
+            "html": true,
+            "css": true,
+            "js": true,
+            "react": true,
+            "bootstrap": true,
+            "sass": false
+        }
     }
 ]
