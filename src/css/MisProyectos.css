@@ -14,7 +14,7 @@
 
 .proy-card {
     background-color: var(--black-bg);
-    width: 260px;
+    width: 290px;
     height: 310px;
     /*border: 1px solid rgb(79, 79, 79);*/
     border-radius: 10px;
@@ -65,23 +65,28 @@
 /*BTN*/
 .proy-card__btn {
     height: 100%;
-    width: auto;
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-end;
     padding-bottom: 5px;
 }
 
 .proy-card__btn button {
-    width: 100%;
+    width: auto;
     font-size: 15px;
     background-color: black;
     color: white;
-    padding: 5px 10px;
+    padding: 3px 3px 3px 10px;
     border-radius: 25px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    transition: 0.2s;
+}
+
+.proy-card__btn button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .proy-card__btn button p {
