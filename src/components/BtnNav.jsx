@@ -9,17 +9,19 @@ import '../css/BtnNav.css';
 export function BtnNav({ txt }) {
     const iconSize = '49px';
     return (
-        <button className='btn'>
+        <button className='btnNav'>
             {
                 (txt === 'Sobre Mí')
-                    ? <RiUser5Fill size={iconSize} className='btn__icon' />
+                    ? <RiUser5Fill size={iconSize} className='btnNav__icon' />
                     : (txt === 'Conocimientos')
-                        ? <GiBrain size={iconSize} className='btn__icon' />
+                        ? <GiBrain size={iconSize} className='btnNav__icon' />
                         : (txt === 'Proyectos')
-                            ? <FaLaptopCode size={iconSize} className='btn__icon' />
-                            : <GrMail size={iconSize} className='btn__icon' />
+                            ? <FaLaptopCode size={iconSize} className='btnNav__icon' />
+                            : <GrMail size={iconSize} className='btnNav__icon' />
             }
-            {/*<p className='btn__txt'>{txt}</p>*/}
+            <div className='btnNav__txt-cont'>
+                <p>{txt}</p>
+            </div>
         </button>
     )
 }

@@ -1,11 +1,31 @@
 @import './colors.css';
 
+.marquee {
+    position: absolute;
+    top: 0px;
+    background-color: var(--black-bg);
+    color: var(--yellow-main);
+    padding: 3px 10px;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marquee__icon {
+    position: relative;
+    bottom: 1px;
+    margin-right: 4px;
+}
+
 .header {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 450px;
+    height: 95vh;
     /*background-color: var(--black-bg);*/
     background-image: url(../assets/img/header-img.jpg);
     background-size: cover;
@@ -23,18 +43,19 @@
 }
 
 .header .name {
-    color: rgb(10, 10, 10);
+    font-family: 'Permanent Marker', cursive;
+    color: var(--black-bg);
     font-size: 60px;
     text-shadow: -1px -1px 1px white, 1px 1px 1px white;
 }
 
 .header .front-end {
     font-family: 'Permanent Marker', cursive;
-    text-shadow: -2px -2px 1px var(--pink-main), 1px 1px 1px white;
-    color: var(--blue-dark);
+    text-shadow: -2px -2px 1px var(--pink-main), 2px 2px 1px white;
+    color: var(--purple-main);
     font-size: 50px;
     position: absolute;
-    bottom: -42px;
+    bottom: -33px;
 }
 
 /*

@@ -1,45 +1,50 @@
 @import './colors.css';
 
-.btn {
-    position: relative;
-    top: -10px;
-    background-color: var(--blue-dark);
-    border: 5px solid var(--pink-main);
+.btnNav {
+    background-color: var(--black-bg);
+    border: 5px solid var(--yellow-main);
     color: white;
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    transition: 0.5s;
+    transition: 0.3s;
+    margin: 6px 0;
+    position: relative;
 }
 
-.btn__icon {
-    transition: transform 0.8s;
+.btnNav__icon {
+    transition: transform 0.7s;
 }
 
-/*
-.btn__txt {
-    transform: scale(0.2);
+.btnNav__txt-cont {
     position: absolute;
-    top: 23px;
-    height: 25px;
-    width: 150px;
-    padding: 3px 5px;
-    font-size: 20px;
-    background-color: var(--blue-dark);
-    border: 2px solid var(--pink-main);
-    border-radius: 15px;
+    top: 16%;
+    left: 20px;
+    min-width: 350px;
+    width: auto;
+    padding: 0 15px 0 5vw;
+    background-color: var(--black-bg);
+    border: 4px solid var(--yellow-main);
+    border-radius: 25px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    z-index: -10;
     transition: 0.4s;
 }
-.btn:hover .btn__txt {
-    transform: scale(1);
-    translate: 72px;
-}
-*/
-.btn:hover {
-    transform: scale(1.1);
-    color: var(--yellow-hover);
+
+.btnNav__txt-cont p {
+    font-size: 30px;
+    padding: 5px;
 }
 
-.btn:hover .btn__icon {
+.btnNav:hover .btnNav__icon {
     transform: scale(1.4);
+}
+
+.btnNav:hover .btnNav__txt-cont {
+    transform: scale(1.1);
+    background-color: var(--yellow-main);
+    color: var(--black-bg);
+    font-weight: bold;
 }

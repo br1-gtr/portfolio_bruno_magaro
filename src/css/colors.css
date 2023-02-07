@@ -1,8 +1,12 @@
 :root {
-    --black-bg: rgb(17, 17, 17);
-    --blue-dark: rgb(1, 3, 17);
-    --pink-main: rgb(227, 67, 168);
-    --yellow-hover: rgb(212, 253, 78);
+    --black-bg: #151515;
+    --blue-dark: #02263a;
+    --purple-main: #301B3F;
+    --green-main: #16FF00;
+    --yellow-main: #FFED00;
+    --pink-main: #F56EB3;
+    --grey-a: #3C415C;
+    --light-a: #B4A5A5;
 }
 
 /*
