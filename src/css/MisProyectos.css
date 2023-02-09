@@ -1,21 +1,44 @@
 @import './colors.css';
 
 .proy-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 15px 15px;
-    /*grid-auto-flow: row;
-    grid-template-areas:
-        ". . . ."
-        ". . . ."
-        ". . . .";*/
+    display: flex;
+    flex-direction: column;
+    color: rgb(219, 219, 219);
+}
+
+.paralax {
+    background: url('../assets/img/header-imgb.jpg') fixed no-repeat;
+    background-size: cover;
+}
+
+.proy__title-cont {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    max-width: 260px;
+    background-color: var(--black-bg);
+    border-radius: 0 0 15px 0;
+    padding: 10px 20px 10px 0px;
+}
+
+.proy__title-icon {
+    margin-right: 15px;
+    color: var(--yellow-main);
+}
+
+.proy-container-cards {
+    padding: 10px 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
 }
 
 .proy-card {
-    background-color: var(--black-bg);
-    width: 290px;
-    height: 310px;
+    width: 310px;
+    max-width: 310px;
+    height: 350px;
+    max-height: 350px;
     /*border: 1px solid rgb(79, 79, 79);*/
     border-radius: 10px;
     display: flex;
@@ -23,6 +46,9 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    margin: 12px;
+    background-color: var(--black-bg);
+    box-shadow: 3px 3px 10px rgba(85, 85, 85, 0.25);
 }
 
 .proy-card img {
@@ -32,7 +58,7 @@
 
 /*ICONOS*/
 .proy-card__icons-tec {
-    color: var(--pink-main);
+    color: var(--green-main);
     width: auto;
     display: flex;
     justify-content: flex-end;
@@ -54,7 +80,7 @@
 }
 
 .proy-card__info--nombre {
-    color: var(--yellow-hover);
+    color: var(--yellow-main);
 }
 
 .proy-card__info p {

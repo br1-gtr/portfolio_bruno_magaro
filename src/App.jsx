@@ -11,6 +11,8 @@ function App() {
       <Header />
       <NavBar />
       <SobreMi />
+      <Tecnologias />
+      <MisProyectos />
 
     </div>
   );

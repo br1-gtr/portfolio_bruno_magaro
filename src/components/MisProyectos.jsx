@@ -5,16 +5,20 @@ import '../css/MisProyectos.css';
 import { AiFillGithub, AiFillHtml5 } from 'react-icons/ai';
 import { DiCss3 } from 'react-icons/di';
 import { TbBrandJavascript } from 'react-icons/tb';
-import { FaBootstrap, FaReact, FaSass } from 'react-icons/fa';
+import { FaBootstrap, FaReact, FaSass, FaLaptopCode } from 'react-icons/fa';
 import { BsArrowUpRightCircleFill } from 'react-icons/bs';
 export function MisProyectos() {
 
     console.log(proyectosData);
 
     return (
-        <div className='container'>
-            <TituloSeccion nombre='Mis Proyectos' />
-            <div className='proy-container'>
+        <div className='proy-container paralax'>
+            <div className='proy__title-cont'>
+                <FaLaptopCode size={'35'} className='proy__title-icon' />
+                <TituloSeccion nombre='Mis Proyectos' />
+            </div>
+
+            <div className='proy-container-cards'>
                 {
                     proyectosData.map(proy => {
                         return (

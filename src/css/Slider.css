@@ -1,8 +1,7 @@
 @import './colors.css';
 
 .slider-container {
-    background-color: var(--pink-main);
-    width: 500px;
+    width: 100%;
     padding: 6px;
     display: flex;
     justify-content: center;
@@ -21,7 +20,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 12px;
+    border: 5px solid var(--purple-main);
 }
 
 .slider__img {
