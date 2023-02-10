@@ -5,6 +5,7 @@ import { NavBar } from './components/NavBar';
 import { Tecnologias } from './components/Tecnologias';
 import { MisProyectos } from './components/MisProyectos';
 import { SobreMi } from './components/SobreMi';
+import { Footer } from './components/Footer';
 function App() {
   return (
     <div className="App">
@@ -13,7 +14,7 @@ function App() {
       <SobreMi />
       <Tecnologias />
       <MisProyectos />
-
+      <Footer />
     </div>
   );
 }

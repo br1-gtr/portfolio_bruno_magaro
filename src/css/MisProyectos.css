@@ -47,7 +47,7 @@
     justify-content: center;
     position: relative;
     margin: 12px;
-    background-color: var(--black-bg);
+    background-color: hsla(0, 0%, 8%, 0.75);
     box-shadow: 3px 3px 10px rgba(85, 85, 85, 0.25);
 }
 
