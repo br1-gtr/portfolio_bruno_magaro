@@ -3,7 +3,7 @@
 .tec__container {
     display: flex;
     flex-direction: column;
-    color: rgb(219, 219, 219);
+    margin: 50px;
 }
 
 .tec__title-cont {
@@ -19,9 +19,6 @@
 
 
 .tecnologias__description {
-    color: white;
-    width: 100%;
-    text-align: left;
-    margin: 20px 0px;
     font-size: 20px;
+    padding: 35px 40px;
 }

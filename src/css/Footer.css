@@ -3,13 +3,28 @@
     width: 100%;
     background-color: rgb(0, 0, 0);
     position: relative;
+    border-top: 4px solid var(--yellow-main);
+    box-shadow: 15px 15px 60px rgba(77, 77, 77, 0.5);
 }
 
 .footer__section-cont {
-    padding: 20px;
+    padding: 25px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+/*CONTACT*/
+.footer__section-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__title-contact {
+    font-size: 40px !important;
 }
 
 .footer__section {
@@ -21,12 +36,9 @@
 }
 
 .footer__title-cont h3 {
-    font-size: 30px;
-    font-family: 'Permanent Marker', cursive;
-    color: var(--purple-main);
-    text-shadow: -0.6px -0.6px 0.6px var(--yellow-main), 0.6px 0.6px 0.6px white;
+    font-size: 20px;
+    color: var(--yellow-main);
     letter-spacing: 2px;
-    ;
 }
 
 .footer__icon-cont {
@@ -37,11 +49,28 @@
     align-items: center;
 }
 
+.footer__sec-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+.footer__section-cont .left0:before {
+    position: absolute;
+    left: 33%;
+    content: '';
+    width: 2px;
+    height: 80px;
+    background-color: var(--yellow-main);
+    border-radius: 5px 5px 5px 5px;
+}
+
 .footer__section-cont .left:before {
     position: absolute;
-    right: 50%;
+    right: 33%;
     content: '';
-    width: 8px;
+    width: 2px;
     height: 80px;
     background-color: var(--yellow-main);
     border-radius: 5px 5px 5px 5px;

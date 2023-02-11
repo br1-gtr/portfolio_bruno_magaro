@@ -1,4 +1,6 @@
 .title {
     text-align: left;
-    color: var(--yellow-hover)
+    color: var(--yellow-hover);
+    font-size: 35px;
+    /*padding: 25px 10px;*/
 }

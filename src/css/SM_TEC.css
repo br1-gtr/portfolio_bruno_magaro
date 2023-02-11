@@ -1,0 +1,8 @@
+@import './colors.css';
+
+.sm-tec-cont {
+    padding: 80px;
+    color: rgb(219, 219, 219);
+    word-spacing: 1px;
+    line-height: 28px;
+}

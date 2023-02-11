@@ -15,10 +15,10 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    max-width: 260px;
+    max-width: 500px;
     background-color: var(--black-bg);
     border-radius: 0 0 15px 0;
-    padding: 10px 20px 10px 0px;
+    padding: 10px 10px 10px 115px;
 }
 
 .proy__title-icon {
@@ -27,10 +27,10 @@
 }
 
 .proy-container-cards {
-    padding: 10px 10vw;
+    padding: 20px 10vw 10vh;
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: center;
     flex-wrap: wrap;
 }
 

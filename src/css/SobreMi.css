@@ -3,7 +3,7 @@
 .sobremi__container {
     display: flex;
     flex-direction: column;
-    color: rgb(219, 219, 219);
+    margin: 50px;
 }
 
 .card__title-cont {
@@ -19,7 +19,7 @@
 
 .card__description {
     font-size: 20px;
-    padding: 20px;
+    padding: 35px 40px;
 }
 
 .card__description--icon {
