@@ -6,3 +6,13 @@
     word-spacing: 1px;
     line-height: 28px;
 }
+
+@media screen and (max-width: 1300px) {
+    .sm-tec-cont {
+        padding: 30px 8px;
+        color: rgb(219, 219, 219);
+        word-spacing: 0px;
+        line-height: 25px;
+    }
+
+}

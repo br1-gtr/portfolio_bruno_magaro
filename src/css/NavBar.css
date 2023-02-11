@@ -9,16 +9,52 @@
     z-index: 1;
     position: absolute;
     left: 10px;
-    top: 20vh;
-    height: 65vh;
+    top: 15vh;
+    height: 75vh;
 }
 
 .nav-bar::after {
     content: "";
     background-color: var(--yellow-main);
-    height: 50vh;
+    height: 55vh;
     width: 6px;
     position: absolute;
-
     z-index: -1;
+}
+
+@media screen and (max-width: 1300px) {
+    .nav-bar {
+        margin: 0;
+        align-items: end;
+        position: fixed;
+        right: 5px;
+        top: 9vh;
+        height: 76vh;
+    }
+
+    .nav-bar::after {
+        right: 41px;
+        width: 4px;
+        right: 30px;
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+    .nav-bar {
+        margin: 0;
+        width: 10vw;
+        align-items: end;
+        position: fixed;
+        left: 86vw;
+        top: 9vh;
+        height: 76vh;
+    }
+
+    .nav-bar::after {
+        right: 41px;
+        width: 4px;
+        right: 30px;
+    }
+
 }

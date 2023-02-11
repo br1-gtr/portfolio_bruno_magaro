@@ -118,3 +118,47 @@
 .proy-card__btn button p {
     margin-right: 5px;
 }
+
+
+@media screen and (max-width: 767px) {
+    .proy__title-cont {
+        justify-content: start;
+        align-items: center;
+        max-width: 282px;
+        background-color: var(--black-bg);
+        border-radius: 0 0 12px 0;
+        padding: 5px 5px 8px 20px;
+    }
+
+    /*CARDS*/
+    .proy-container-cards {
+        width: 86vw;
+        margin-left: 4vw;
+        padding: 16px 8vw 8vh;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+
+
+    .proy-container-cards::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .proy-card {
+        width: 310px;
+        max-width: 310px;
+        height: 350px;
+        max-height: 350px;
+        /*border: 1px solid rgb(79, 79, 79);*/
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin: 12px;
+        background-color: hsla(0, 0%, 8%, 0.75);
+        box-shadow: 3px 3px 10px rgba(85, 85, 85, 0.25);
+    }
+
+}

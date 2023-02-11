@@ -103,3 +103,42 @@
 .return-icon {
     color: var(--yellow-main);
 }
+
+@media screen and (max-width: 767px) {
+    .return-cont {
+        display: none;
+    }
+
+    .footer__section-cont {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer__section-cont>div:nth-child(1) {
+        display: none;
+    }
+
+    .footer__title-contact {
+        font-size: 30px !important;
+    }
+
+    .footer__title-cont h3 {
+        font-size: 16px;
+        color: var(--yellow-main);
+        letter-spacing: 2px;
+    }
+
+    .footer__icon-cont * {
+        margin: 5px 16px;
+        height: 38px;
+    }
+
+    .footer__section-cont .left0:before,
+    .footer__section-cont .left:before {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+}

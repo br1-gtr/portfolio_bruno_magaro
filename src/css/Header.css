@@ -25,12 +25,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 95vh;
-    /*background-color: var(--black-bg);*/
+    height: 100vh;
     background-image: url(../assets/img/header-img.jpg);
     background-size: cover;
     background-position: center;
-    /*border-bottom: 3px solid var(--pink-main);*/
 }
 
 .header-data-cont {
@@ -58,8 +56,21 @@
     bottom: -33px;
 }
 
-/*
-black-bg-main rgb(17, 17, 17)
-azul-black rgb(1, 3, 17)
-rosa-main rgb(227, 67, 168)
-*/
+@media screen and (max-width: 767px) {
+    .marquee {
+        font-size: 10px;
+    }
+
+    .header {
+        padding-left: 10px;
+    }
+
+    .header .name {
+        font-size: 30px;
+    }
+
+    .header .front-end {
+        font-size: 28px;
+        bottom: -23px;
+    }
+}

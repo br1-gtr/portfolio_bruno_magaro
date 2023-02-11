@@ -48,3 +48,22 @@
     color: var(--black-bg);
     font-weight: bold;
 }
+
+@media screen and (max-width: 1300px) {
+    .btnNav {
+        border: 3px solid var(--yellow-main);
+        color: white;
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        transition: 0.3s;
+        margin: 3px 0;
+        position: relative;
+    }
+
+    .btnNav__txt-cont {
+        display: none;
+    }
+
+
+}
