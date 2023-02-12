@@ -45,7 +45,7 @@
         width: 10vw;
         align-items: end;
         position: fixed;
-        left: 89vw;
+        left: 85vw;
         top: 26vh;
         height: 50vh;
     }
@@ -53,6 +53,17 @@
     .nav-bar::after {
         height: 45vh;
         width: 3px;
+        right: 30px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .nav-bar {
+        left: 86vw;
+    }
+
+    .nav-bar::after {
         right: 25px;
     }
 
