@@ -27,7 +27,6 @@
         margin: 0;
         align-items: end;
         position: fixed;
-        right: 5px;
         top: 9vh;
         height: 76vh;
     }
@@ -46,15 +45,15 @@
         width: 10vw;
         align-items: end;
         position: fixed;
-        left: 86vw;
-        top: 9vh;
-        height: 76vh;
+        left: 89vw;
+        top: 26vh;
+        height: 50vh;
     }
 
     .nav-bar::after {
-        right: 41px;
-        width: 4px;
-        right: 30px;
+        height: 45vh;
+        width: 3px;
+        right: 25px;
     }
 
 }

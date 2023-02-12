@@ -121,6 +121,11 @@
 
 
 @media screen and (max-width: 767px) {
+    .proy-container {
+        min-height: 58vh;
+        justify-content: space-between;
+    }
+
     .proy__title-cont {
         justify-content: start;
         align-items: center;
@@ -132,33 +137,59 @@
 
     /*CARDS*/
     .proy-container-cards {
-        width: 86vw;
-        margin-left: 4vw;
-        padding: 16px 8vw 8vh;
+        min-width: 400px;
+        max-width: 90vw;
+        margin: 10px 3vw;
+        padding: 5px;
         flex-wrap: nowrap;
-        overflow-x: scroll;
+        flex-direction: row;
+        overflow-x: auto;
     }
-
 
     .proy-container-cards::-webkit-scrollbar {
         width: 0;
     }
 
     .proy-card {
-        width: 310px;
-        max-width: 310px;
-        height: 350px;
-        max-height: 350px;
-        /*border: 1px solid rgb(79, 79, 79);*/
-        border-radius: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        margin: 12px;
-        background-color: hsla(0, 0%, 8%, 0.75);
-        box-shadow: 3px 3px 10px rgba(85, 85, 85, 0.25);
+        min-width: 250px;
+        min-height: 330px;
+        margin: 6px;
     }
 
+    .proy-card__info--nombre {
+        margin-top: 14px;
+        font-size: 30px;
+    }
+
+    .proy-card__info p {
+        display: none;
+    }
+
+    /*Corrige inicio  de primer elemento en slider de proyectos*/
+    .proy-container-cards>div:first-child {
+        margin-left: 1350px;
+    }
+
+    /*Corrige final de ultimo elemento en slider de proyectos*/
+    .proy-container-cards>div:last-child {
+        margin-right: 80px;
+    }
+
+    /*BTN*/
+    .proy-card__btn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proy-card__btn button {
+        font-size: 14px;
+        background-color: black;
+        color: white;
+        padding: 3px 5px 3px 15px;
+        border-radius: 25px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        transition: 0.2s;
+    }
 }

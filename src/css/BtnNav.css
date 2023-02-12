@@ -65,5 +65,21 @@
         display: none;
     }
 
+}
 
+@media screen and (max-width: 767px) {
+    .btnNav {
+        border: 3px solid var(--yellow-main);
+        color: white;
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        transition: 0.3s;
+        margin: 3px 0;
+    }
+
+    .btnNav__icon {
+        height: 35px;
+        width: 35px;
+    }
 }
