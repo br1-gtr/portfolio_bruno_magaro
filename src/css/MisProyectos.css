@@ -168,7 +168,7 @@
 
     /*Corrige inicio  de primer elemento en slider de proyectos*/
     .proy-container-cards>div:first-child {
-        margin-left: 1200px;
+        margin-left: 1225px;
     }
 
     /*Corrige final de ultimo elemento en slider de proyectos*/
