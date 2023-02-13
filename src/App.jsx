@@ -5,8 +5,9 @@ import { SM_TEC } from './components/SM_TEC.jsx';
 import { MisProyectos } from './components/MisProyectos';
 import { Footer } from './components/Footer';
 function App() {
+
   return (
-    <div className="App">
+    <div className="App" >
       <Header />
       <NavBar />
       <SM_TEC />

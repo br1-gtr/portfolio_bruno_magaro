@@ -22,37 +22,19 @@
     z-index: -1;
 }
 
+
+
 @media screen and (max-width: 1300px) {
     .nav-bar {
         margin: 0;
-        align-items: end;
         position: fixed;
-        top: 9vh;
-        height: 76vh;
+        top: 20vh;
+        height: 60vh;
     }
 
     .nav-bar::after {
-        right: 41px;
-        width: 4px;
-        right: 30px;
-    }
-
-}
-
-@media screen and (max-width: 1300px) {
-    .nav-bar {
-        margin: 0;
-        width: 10vw;
-        align-items: end;
-        position: fixed;
-        left: 85vw;
-        top: 26vh;
         height: 50vh;
-    }
-
-    .nav-bar::after {
-        height: 45vh;
-        width: 3px;
+        width: 4px;
         right: 30px;
     }
 
@@ -60,11 +42,21 @@
 
 @media screen and (max-width: 767px) {
     .nav-bar {
-        left: 86vw;
+        position: sticky;
+        height: 50px;
+        min-width: 320px;
+        width: 100%;
+        top: 0 !important;
+        left: 0;
+        flex-direction: row;
+        background-color: var(--black-bg);
+        border-top: 4px solid var(--yellow-main);
+        border-bottom: 4px solid var(--yellow-main);
+
     }
 
     .nav-bar::after {
-        right: 25px;
+        display: none;
     }
 
 }

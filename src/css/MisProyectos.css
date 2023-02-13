@@ -122,7 +122,7 @@
 
 @media screen and (max-width: 767px) {
     .proy-container {
-        min-height: 58vh;
+        min-height: 54vh;
         justify-content: space-between;
     }
 

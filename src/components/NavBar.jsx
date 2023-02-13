@@ -3,6 +3,7 @@ import { BtnNav } from './BtnNav.jsx';
 import '../css/NavBar.css';
 
 export function NavBar() {
+
     return (
         <nav className='nav-bar'>
             <BtnNav txt='Sobre Mí' />
@@ -11,4 +12,4 @@ export function NavBar() {
             <BtnNav txt='Contacto' />
         </nav>
     )
-}
+} 
