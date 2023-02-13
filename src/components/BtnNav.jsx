@@ -14,7 +14,7 @@ export function BtnNav({ txt }) {
     const [positionScroll, setPositionScroll] = useState(false); // check pos de scroll * modif NAV
 
     const dataScroll = () => {
-        if (window.scrollY > window.visualViewport.height) {
+        if (window.scrollY > (window.visualViewport.height - 150)) {
             setPositionScroll(true)
         } else {
             setPositionScroll(false)
