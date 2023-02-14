@@ -5,7 +5,7 @@ import { RiAliensFill } from 'react-icons/ri';
 export function Header() {
     const logoName = '< Bruno Magaro />'
     return (
-        <header className='header'>
+        <header className='header' id="inicio">
             <div className='marquee'>
                 <RiAliensFill className="marquee__icon" />
                 <p>Bienvenid@ a mi portfolio, gracias por tu visita!</p>

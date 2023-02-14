@@ -5,7 +5,7 @@ import { Slider } from './Slider.jsx';
 import '../css/Tecnologias.css';
 export function Tecnologias() {
     return (
-        <div className='tec__container'>
+        <div className='tec__container' id="conocimientos">
             <div className='tec__title-cont'>
                 <GiBrain className='tec__title-icon' size={'35'} />
                 <TituloSeccion nombre='Conocimientos' />

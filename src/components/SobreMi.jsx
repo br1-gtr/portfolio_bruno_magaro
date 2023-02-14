@@ -7,7 +7,7 @@ import { FiCoffee } from 'react-icons/fi';
 import { MdLocalMovies } from 'react-icons/md';
 export function SobreMi() {
     return (
-        <div className='sobremi__container'>
+        <div className='sobremi__container' id="sobreMi">
             <div className='card__title-cont'>
                 <RiUser5Fill className='card__title--icon' size={'35'} />
                 <TituloSeccion nombre='Sobre Mí' />

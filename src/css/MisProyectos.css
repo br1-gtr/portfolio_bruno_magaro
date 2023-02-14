@@ -52,6 +52,10 @@
 }
 
 .proy-card img {
+    min-height: 200px;
+}
+
+.proy-card img {
     width: 100%;
     border-radius: 10px 10px 0% 50%;
 }
@@ -168,7 +172,7 @@
 
     /*Corrige inicio  de primer elemento en slider de proyectos*/
     .proy-container-cards>div:first-child {
-        margin-left: 1225px;
+        margin-left: 2100px;
     }
 
     /*Corrige final de ultimo elemento en slider de proyectos*/

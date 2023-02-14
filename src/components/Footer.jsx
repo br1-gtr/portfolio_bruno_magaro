@@ -1,18 +1,24 @@
 import React from "react";
 import '../css/Footer.css';
+
 import { BsGithub } from 'react-icons/bs';
 import { SiVercel, SiNetlify } from 'react-icons/si';
 import { FaLinkedin, FaInstagram, FaWhatsapp, FaArrowCircleUp, FaTelegram } from 'react-icons/fa';
+
+import { Link as LinkScroll } from 'react-scroll';
 
 export function Footer() {
     const iconSizeContact = 50;
     const iconSize = 35;
 
     return (
-        <footer className='footer'>
-            <div className='return-cont'>
-                <FaArrowCircleUp size={50} className='return-icon' />
-            </div>
+        <footer className='footer' id="contacto">
+            <LinkScroll activeClass="active" to="inicio" spy={true} smooth={true} offset={0} duration={500}>
+                <div className='return-cont'>
+                    <FaArrowCircleUp size={50} className='return-icon' />
+                </div>
+            </LinkScroll>
+
 
             <div className='footer__section-cont'>
                 <div className='footer__section'>
@@ -31,7 +37,9 @@ export function Footer() {
                         <h3 className='footer__title-contact'>Contacto</h3>
                     </div>
                     <div className='footer__icon-cont'>
-                        <FaLinkedin size={iconSizeContact} />
+                        <a href="https://www.linkedin.com/in/brunomagaro/" target="_blank">
+                            <FaLinkedin size={iconSizeContact} />
+                        </a>
                         <FaWhatsapp size={iconSizeContact} />
                         <FaTelegram size={iconSizeContact} />
                         <FaInstagram size={iconSizeContact} />
@@ -42,8 +50,12 @@ export function Footer() {
                         <h3>Mas proyectos</h3>
                     </div>
                     <div className='footer__icon-cont'>
-                        <BsGithub size={iconSize} />
-                        <SiVercel size={iconSize} />
+                        <a href="https://github.com/br1-gtr" target="_blank" >
+                            <BsGithub size={iconSize} />
+                        </a>
+                        <a href="https://vercel.com/dashboard" target="_blank">
+                            <SiVercel size={iconSize} />
+                        </a>
                         <SiNetlify size={iconSize} />
                     </div>
                 </div>

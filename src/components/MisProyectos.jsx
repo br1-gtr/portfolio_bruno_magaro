@@ -1,18 +1,21 @@
 import React from "react";
 import { TituloSeccion } from "./TituloSeccion";
+
 import proyectosData from '../proyectos.json';
+
 import '../css/MisProyectos.css';
 import { AiFillGithub, AiFillHtml5 } from 'react-icons/ai';
 import { DiCss3 } from 'react-icons/di';
 import { TbBrandJavascript } from 'react-icons/tb';
 import { FaBootstrap, FaReact, FaSass, FaLaptopCode } from 'react-icons/fa';
 import { BsArrowUpRightCircleFill } from 'react-icons/bs';
+
 export function MisProyectos() {
 
     console.log(proyectosData);
 
     return (
-        <div className='proy-container paralax'>
+        <div className='proy-container paralax' id="proyectos">
             <div className='proy__title-cont'>
                 <FaLaptopCode size={'35'} className='proy__title-icon' />
                 <TituloSeccion nombre='Mis Proyectos' />
@@ -20,7 +23,7 @@ export function MisProyectos() {
 
             <div className='proy-container-cards'>
                 {
-                    proyectosData.map(proy => {
+                    proyectosData.map((proy) => {
                         return (
                             <div className='proy-card' key={proy.nombre}>
                                 <img src={proy.img} alt="imagen ERROR" />
@@ -38,14 +41,19 @@ export function MisProyectos() {
                                 </div>
 
                                 <div className='proy-card__btn'>
-                                    <button>
-                                        <p>Ir al sitio</p>
-                                        <BsArrowUpRightCircleFill size={"26px"} />
-                                    </button>
-                                    <button>
-                                        <p>Repositorio</p>
-                                        <AiFillGithub size={"26px"} />
-                                    </button>
+                                    <a href={proy.site} target="_blank">
+                                        <button>
+                                            <p>Ir al sitio</p>
+                                            <BsArrowUpRightCircleFill size={"26px"} />
+                                        </button>
+                                    </a>
+                                    <a href={proy.repo} target="_blank">
+                                        <button>
+                                            <p>Repositorio</p>
+                                            <AiFillGithub size={"26px"} />
+                                        </button>
+                                    </a>
+
                                 </div>
                             </div>
                         )

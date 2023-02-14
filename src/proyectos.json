@@ -2,7 +2,7 @@
     {
         "nombre": "Portfolio",
         "descripcion": "Este proyecto es mi sitio personalizado, donde se encuentra informacion sobre mi, mis conocimientos y experiencia, y el enlace a algunos de mis proyectos.",
-        "img": "https://img.freepik.com/foto-gratis/encendido-computadora-portatil-gris_400718-47.jpg?w=740&t=st=1672610633~exp=1672611233~hmac=9ee9779c02b8c50e69ffd57d4ad280e64247c67137e1706b04f15e30e2dfb2df",
+        "img": "https://i.ibb.co/19zG546/portfolio.png",
         "tecnologias": {
             "html": true,
             "css": true,
@@ -10,12 +10,44 @@
             "react": true,
             "bootstrap": false,
             "sass": false
-        }
+        },
+        "site": "https://portfolio-bruno-magaro.vercel.app/",
+        "repo": "https://github.com/br1-gtr/portfolio_bruno_magaro.git"
+    },
+    {
+        "nombre": "E-Commerce",
+        "descripcion": "Tienda virtual de venta de notebooks desarrollada en React.js",
+        "img": "https://i.ibb.co/FB090Ck/ecommerce.png",
+        "tecnologias": {
+            "html": true,
+            "css": true,
+            "js": true,
+            "react": true,
+            "bootstrap": false,
+            "sass": false
+        },
+        "site": "https://coder-house-34845-e-commerce-magaro.vercel.app/",
+        "repo": "https://github.com/br1-gtr/coderHouse_34845-eCommerce_magaro.git"
+    },
+    {
+        "nombre": "PianitoV01",
+        "descripcion": "Un piano minimalista, funcional gracias a la libreria P5.js(Sound).",
+        "img": "https://i.ibb.co/p27VTR9/pianito.png",
+        "tecnologias": {
+            "html": true,
+            "css": true,
+            "js": true,
+            "react": false,
+            "bootstrap": false,
+            "sass": true
+        },
+        "site": "https://br1-gtr.github.io/piano_v01/",
+        "repo": "https://github.com/br1-gtr/piano_v01.git"
     },
     {
         "nombre": "Tateti",
         "descripcion": "Mi primer 'Juego' desarrollado en puro HTML, CSS, y JavaScript. Una version minimalista del clasico TaTeTi.",
-        "img": "https://img.freepik.com/foto-gratis/encendido-computadora-portatil-gris_400718-47.jpg?w=740&t=st=1672610633~exp=1672611233~hmac=9ee9779c02b8c50e69ffd57d4ad280e64247c67137e1706b04f15e30e2dfb2df",
+        "img": "https://i.ibb.co/2v4LsdZ/tateti.png",
         "tecnologias": {
             "html": true,
             "css": true,
@@ -23,12 +55,14 @@
             "react": false,
             "bootstrap": false,
             "sass": false
-        }
+        },
+        "site": "https://br1-gtr.github.io/tateti_js/",
+        "repo": "https://github.com/br1-gtr/tateti_js.git"
     },
     {
         "nombre": "Pokedex",
         "descripcion": "Un buscador de pokemones(los clasicos 150) con distintos filtros de busqueda.",
-        "img": "https://img.freepik.com/foto-gratis/encendido-computadora-portatil-gris_400718-47.jpg?w=740&t=st=1672610633~exp=1672611233~hmac=9ee9779c02b8c50e69ffd57d4ad280e64247c67137e1706b04f15e30e2dfb2df",
+        "img": "https://i.ibb.co/qJqfM0h/pokedex.png",
         "tecnologias": {
             "html": true,
             "css": true,
@@ -36,12 +70,14 @@
             "react": false,
             "bootstrap": false,
             "sass": true
-        }
+        },
+        "site": "https://br1-gtr.github.io/pokedex_js/",
+        "repo": "https://github.com/br1-gtr/pokedex_js.git"
     },
     {
         "nombre": "Memorama",
         "descripcion": "Utilizando la Poke-Api, este mini-juego se conecta y genera partidas con pokemones al azar entre los primeros 150.",
-        "img": "https://img.freepik.com/foto-gratis/encendido-computadora-portatil-gris_400718-47.jpg?w=740&t=st=1672610633~exp=1672611233~hmac=9ee9779c02b8c50e69ffd57d4ad280e64247c67137e1706b04f15e30e2dfb2df",
+        "img": "https://i.ibb.co/dWCnXSg/memorama.png",
         "tecnologias": {
             "html": true,
             "css": true,
@@ -49,12 +85,14 @@
             "react": false,
             "bootstrap": true,
             "sass": true
-        }
+        },
+        "site": "https://br1-gtr.github.io/memorama-poke/",
+        "repo": "https://github.com/br1-gtr/memorama-poke.git"
     },
     {
         "nombre": "Clima App",
         "descripcion": "Esta App detecta la ubicacion  del usuario, y luego mediante una API con data de climatologia, muestra un detalle del clima onlne y de las horas siguientes.",
-        "img": "https://img.freepik.com/foto-gratis/encendido-computadora-portatil-gris_400718-47.jpg?w=740&t=st=1672610633~exp=1672611233~hmac=9ee9779c02b8c50e69ffd57d4ad280e64247c67137e1706b04f15e30e2dfb2df",
+        "img": "https://i.ibb.co/2spqyxF/climaapp.png",
         "tecnologias": {
             "html": true,
             "css": true,
@@ -62,19 +100,38 @@
             "react": true,
             "bootstrap": false,
             "sass": true
-        }
+        },
+        "site": "https://br1-gtr.github.io/clima_app_Js/",
+        "repo": "https://github.com/br1-gtr/clima_app_Js.git"
     },
     {
-        "nombre": "Pomodoro App",
-        "descripcion": "El clasico metodo pomodoro para desarrollar diferentes tareas. Con un stylado minimalista programado en Vanilla Javascript.",
-        "img": "https://img.freepik.com/foto-gratis/encendido-computadora-portatil-gris_400718-47.jpg?w=740&t=st=1672610633~exp=1672611233~hmac=9ee9779c02b8c50e69ffd57d4ad280e64247c67137e1706b04f15e30e2dfb2df",
+        "nombre": "Calculadora",
+        "descripcion": "Una calculaora completamente funcional, programada en JS, con modo dark/ligth.",
+        "img": "https://i.ibb.co/09BCd95/calculator.png",
         "tecnologias": {
             "html": true,
             "css": true,
             "js": true,
-            "react": true,
-            "bootstrap": true,
+            "react": false,
+            "bootstrap": false,
             "sass": false
-        }
+        },
+        "site": "https://br1-gtr.github.io/calculator_js/",
+        "repo": "https://github.com/br1-gtr/calculator_js.git"
+    },
+    {
+        "nombre": "MetronomoV01",
+        "descripcion": "La primer versión de un metronomo para practicar, una de mis primeras incursiones con la libreria P5.js",
+        "img": "https://i.ibb.co/yNm798R/metronome.png",
+        "tecnologias": {
+            "html": true,
+            "css": true,
+            "js": true,
+            "react": false,
+            "bootstrap": false,
+            "sass": true
+        },
+        "site": "https://br1-gtr.github.io/metronomo_v01/",
+        "repo": "https://github.com/br1-gtr/metronomo_v01.git"
     }
 ]
