@@ -56,7 +56,7 @@ export function Footer() {
                 </div>
                 <div className='footer__section left'>
                     <div className='footer__title-cont'>
-                        <h3>Mas proyectos</h3>
+                        <h3>Más proyectos</h3>
                     </div>
                     <div className='footer__icon-cont'>
                         <a href="https://github.com/br1-gtr" target="_blank" >
