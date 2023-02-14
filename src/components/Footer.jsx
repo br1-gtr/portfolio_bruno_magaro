@@ -26,10 +26,19 @@ export function Footer() {
                         <h3>Secciones</h3>
                     </div>
                     <div className='footer__sec-cont'>
-                        <p>Inicio</p>
-                        <p>Sobre Mi</p>
-                        <p>Conocimientos</p>
-                        <p>Mis Proyectos</p>
+                        <LinkScroll activeClass="active" to="inicio" spy={true} smooth={true} offset={0} duration={500}>
+                            <p>Inicio</p>
+                        </LinkScroll>
+                        <LinkScroll activeClass="active" to="sobreMi" spy={true} smooth={true} offset={0} duration={500}>
+                            <p>Sobre Mi</p>
+                        </LinkScroll>
+                        <LinkScroll activeClass="active" to="conocimientos" spy={true} smooth={true} offset={0} duration={500}>
+                            <p>Conocimientos</p>
+                        </LinkScroll>
+                        <LinkScroll activeClass="active" to="proyectos" spy={true} smooth={true} offset={0} duration={500}>
+                            <p>Mis Proyectos</p>
+                        </LinkScroll>
+
                     </div>
                 </div>
                 <div className='footer__section-contact left0'>

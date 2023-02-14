@@ -13,7 +13,7 @@ export function Tecnologias() {
             <p className='tecnologias__description'>
                 Comencé mis primeros pasos en la programación hace algunos años con <strong>Raptor</strong>, una aplicación para programar mediante diagramas de flujo. Posteriormente pase a <strong>Java</strong> e incursione en bases de datos con <strong>MySQL</strong>.<br />
                 Mi primer acercamiento al desarrollo web fue con <strong>WordPress</strong>. Después investigar un poco esta tecnología inicie con los pilares del Front-End, <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>.
-                De la mano de CSS conocí <strong>Sass</strong> y varios frameworks de estilado, profundizando principalmente en <strong>Bootstrap</strong>. Por otra parte, JavaScrip me llevó a conocer incontables librerías y framworks cómo <strong>ReactJs</strong>.
+                De la mano de CSS conocí <strong>Sass</strong> y varios frameworks de estilado, profundizando principalmente en <strong>Bootstrap</strong>. Por otra parte, JavaScript me llevó a conocer incontables librerías y framworks cómo <strong>ReactJs</strong>.
                 Me encuentro expandiendo mis conocimientos dentro del ecosistema del desarrollo Front-End, un universo de herramientas y metodologías que crece día a día.
             </p>
             <Slider />

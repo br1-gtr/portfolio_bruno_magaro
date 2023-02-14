@@ -91,11 +91,11 @@
 @media screen and (max-width: 390px) {
 
     .header .name {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .header .front-end {
-        font-size: 30px;
-        bottom: -23px;
+        font-size: 27px;
+        bottom: -20px;
     }
 }
