@@ -1,5 +1,20 @@
 [
     {
+        "nombre": "Movie-App",
+        "descripcion": "Una web con su diseño basado en Netflix/HboMax, y su nombre inspirado en la mítica tienda de alquiler de películas. Adaptable a desktop/tablet/mobile.",
+        "img": "https://i.ibb.co/crtkmYQ/movie-app.png",
+        "tecnologias": {
+            "html": true,
+            "css": true,
+            "js": true,
+            "react": true,
+            "bootstrap": false,
+            "sass": false
+        },
+        "site": "https://movie-app-br1.vercel.app/",
+        "repo": "https://github.com/br1-gtr/movie-app"
+    },
+    {
         "nombre": "Portfolio",
         "descripcion": "Este proyecto es mi sitio personalizado, donde se encuentra informacion sobre mi, mis conocimientos y experiencia, y el enlace a algunos de mis proyectos.",
         "img": "https://i.ibb.co/19zG546/portfolio.png",
